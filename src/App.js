@@ -34,27 +34,29 @@ export default function App() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-<div>
-<div style={{position: 'absolute', width: '25.5em', height: '15em', left: '40em', top: '15em', background: '#63DAD3'}} >
-        <p >
-        Es necesario conectarse para comenzar a jugar 
+<div className="d-flex bd-highlight example-parent">
+      <div className="p-2 w-100 bd-highlight col-example">
+        <p>Es necesario conectarse para comenzar a jugar </p>
+        <button onClick={login}>Conectarse</button>
+      </div>
+      <div className="p-2 w-100 bd-highlight col-example">
+        <p>
+          Magic chess es un juego basado en el ajedrez clasico con una variedad
+          de modos de juego que busca ser divertido para todos y fomentar el
+          juego clasico de ajedrez
         </p>
-        <div>
-        <p style={{ textAlign: 'center', marginTop: '1.5em', background: '#000000' }}>
-          <button onClick={login}>Conectarse</button>
-        </p>
-        </div>
-</div>
-
-
-
-<div></div>
-
-</div>
-<div style={{textAlign: 'center', position: 'absolute', width: '25.5em', height: '18em', button: '35em', left: '10em', top: '15em', background: '#FFF'}}>
-      <h2>Magic chess es un juego basado en el ajedrez clasico con una variedad de modos de juego que busca ser divertido para todos y fomentar el juego clasico de ajedrez</h2>
-</div>
-</div>
+      </div>
+    </div>
+<div
+        class="row2"
+        style={{
+          flexDirection: "row",
+          width: "50%",
+          background: "#F0F",
+          display: "flex"
+        }}
+      ></div>
+    </div>
 
     )
 }
