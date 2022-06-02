@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.pokemon-details img {
+  margin-bottom: 10%;
+  border-radius: 5%;
+  width: 25%;
+}
