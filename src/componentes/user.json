@@ -1,0 +1,16 @@
+{
+  "Data": {
+    "user1": {
+      "id": "1",
+      "Name": "juan",
+      "Antiguedad": "9 meses",
+      "rating": "1280"
+    },
+    "user2": {
+      "id": "2",
+      "Name": "allcharmian",
+      "Antiguedad": "1 año 2 meses",
+      "rating": "1313"
+    }
+  }
+}
